@@ -14,7 +14,7 @@ signals:
 public slots:
 
 private:
-    QSGNode * updatePaintNode(QSGNode *, UpdatePaintNodeData *) override;
+    QSGNode * updatePaintNode(QSGNode *oldNode, UpdatePaintNodeData *data) override;
 };
 
 #endif // VIDEOPLAYER_H

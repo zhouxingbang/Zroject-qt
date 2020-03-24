@@ -1,5 +1,5 @@
 #include "zmlplugin_plugin.h"
-#include "videopalyer.h"
+#include "videoplayer.h"
 
 #include <qqml.h>
 
